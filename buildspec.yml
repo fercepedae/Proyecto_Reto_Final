@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Pipeline funcionando correctamente"
+      - python3 --version
+
+artifacts:
+  files:
+    - '**/*'
